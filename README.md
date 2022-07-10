@@ -17,7 +17,7 @@
 This project started after seeing the lacking state of the space game opensource community this game is based off of ksp and Children of a Dead Earth
 and old project named RocketFoss and Children of a Dead Earth have been abandoned so ive decided to carry the torch.
 
-<a href="https://trello.com/b/3qrRH2vb/cts">Trello board</a>
+<a href="https://github.com/Parell/CTS/projects?type=beta">Projects roadmap</a>
 
 See the [open issues](https://github.com/Parell/CTS/issues) for more proposed features (and known issues).
 
