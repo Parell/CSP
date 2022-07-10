@@ -48,4 +48,4 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@parelldev](https://twitter.com/parelldev) - parelldev01@gmail.com
+Daniel John - [@parelldev](https://twitter.com/parelldev) - parelldev01@gmail.com
