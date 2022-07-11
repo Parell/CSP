@@ -10,8 +10,6 @@
   </p>
 </div>
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project started after seeing the lacking state of the space game opensource community this game is based off of ksp and Children of a Dead Earth
@@ -19,10 +17,8 @@ and old project named RocketFoss and Children of a Dead Earth have been abandone
 
 <a href="https://github.com/Parell/CTS/projects?type=beta">Projects roadmap</a>
 
-See the [open issues](https://github.com/Parell/CTS/issues) for more proposed features (and known issues).
+See the [open issues](https://github.com/Parell/CTS/issues) for more proposed feature (and known issues).
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -31,7 +27,6 @@ To get a local copy up and running follow these simple example steps.
   Install unity 2020.3
   ```
 
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -45,7 +40,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch
 5. Open a Pull Request
 
-<!-- CONTACT -->
 ## Contact
 
 Your Name - [@parelldev](https://twitter.com/parelldev) - parelldev01@gmail.com
