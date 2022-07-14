@@ -2,23 +2,22 @@ using UnityEngine;
 
 public class Thruster : MonoBehaviour
 {
-    private ParticleSystem particleSource;
-    //private AudioSource audioSource;
+    public Vector3 force;
+    public bool isForce;
+
+    ParticleSystem particleSource;
     //private Light lightSource;
-    [SerializeField]
-    private bool isOn;
+    Vessel vessel;
 
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(transform.position, 0.04f);
-    }
+    [SerializeField] bool isOn;
+    string identifier;
 
-    private void Awake()
+    void Awake()
     {
         particleSource = GetComponent<ParticleSystem>();
-        //audioSource = GetComponent<AudioSource>();
-        //lightSource = GetComponent<Light>();
+        vessel = GetComponentInParent<Vessel>();
+
+        identifier = GetInstanceID().ToString();
     }
 
     public void StartThruster()
@@ -26,8 +25,16 @@ public class Thruster : MonoBehaviour
         if (!isOn)
         {
             particleSource.Play();
-            //audioSource.Play();
-            //lightSource.enabled = true;
+
+            if (isForce)
+            {
+                vessel.AddForce(identifier, force);
+            }
+            else
+            {
+                vessel.AddTorque(identifier, force);
+            }
+
             isOn = true;
         }
     }
@@ -37,8 +44,16 @@ public class Thruster : MonoBehaviour
         if (isOn)
         {
             particleSource.Stop();
-            //audioSource.Stop();
-            //lightSource.enabled = false;
+
+            if (isForce)
+            {
+                vessel.RemoveForce(identifier);
+            }
+            else
+            {
+                vessel.RemoveTorque(identifier);
+            }
+
             isOn = false;
         }
     }

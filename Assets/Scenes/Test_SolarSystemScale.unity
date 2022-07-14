@@ -731,7 +731,7 @@ ConstantForce:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002835798}
   m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 100000000}
+  m_Force: {x: 0, y: 0, z: 2e+9}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 2042501288}
   unscaledFarClipPlane: 1e+18
-  nearClipOffset: 0.5
+  nearClipOffset: 1
 --- !u!114 &1067716897
 MonoBehaviour:
   m_ObjectHideFlags: 0
